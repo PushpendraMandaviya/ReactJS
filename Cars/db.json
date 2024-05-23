@@ -1,0 +1,877 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Dev Mankad",
+      "email": "dev.mankad@example.com",
+      "password": "dev@1234"
+    },
+    {
+      "id": "2",
+      "name": "Ananya Sharma",
+      "email": "ananya@example.com",
+      "password": "ananya456"
+    },
+    {
+      "id": "3",
+      "name": "Amit Patel",
+      "email": "amit@example.com",
+      "password": "amit789"
+    },
+    {
+      "id": "4",
+      "name": "Bhavya Singh",
+      "email": "bhavya@example.com",
+      "password": "bhavya321"
+    },
+    {
+      "id": "5",
+      "name": "Chetan Gupta",
+      "email": "chetan@example.com",
+      "password": "chetan123"
+    },
+    {
+      "id": "6",
+      "name": "Deepika Sharma",
+      "email": "deepika@example.com",
+      "password": "deepika456"
+    },
+    {
+      "id": "7",
+      "name": "Gaurav Mishra",
+      "email": "gaurav@example.com",
+      "password": "gaurav789"
+    },
+    {
+      "id": "8",
+      "name": "Ishaan Shah",
+      "email": "ishaan@example.com",
+      "password": "ishaan321"
+    },
+    {
+      "id": "9",
+      "name": "Juhi Singh",
+      "email": "juhi@example.com",
+      "password": "juhi123"
+    },
+    {
+      "id": "10",
+      "name": "Kabir Verma",
+      "email": "kabir@example.com",
+      "password": "kabir456"
+    },
+    {
+      "id": "11",
+      "name": "Mehak Kapoor",
+      "email": "mehak@example.com",
+      "password": "mehak789"
+    },
+    {
+      "id": "12",
+      "name": "Neha Sharma",
+      "email": "neha@example.com",
+      "password": "neha321"
+    },
+    {
+      "id": "13",
+      "name": "Parth Patel",
+      "email": "parth@example.com",
+      "password": "parth123"
+    },
+    {
+      "id": "14",
+      "name": "Rahul Singh",
+      "email": "rahul@example.com",
+      "password": "rahul456"
+    },
+    {
+      "id": "15",
+      "name": "Shreya Gupta",
+      "email": "shreya@example.com",
+      "password": "shreya789"
+    },
+    {
+      "id": "48fd",
+      "name": "Dev Mankad",
+      "email": "dev@gmail.com",
+      "password": "dev@1234",
+      "cartItems": [
+        {
+          "id": "1",
+          "brand": "Ferrari",
+          "model": "F8 Tributo",
+          "year": 2022,
+          "price": 300000,
+          "kilometers": "40,000",
+          "mileage": "10,000 km",
+          "cartype": "Sports Car",
+          "fuelType": "Gasoline",
+          "numberOfOwners": 1,
+          "defects": "Minor scratches on the rear bumper",
+          "condition": "Excellent",
+          "engine": "3.9L V8",
+          "transmission": "7-Speed Dual-Clutch Automatic",
+          "features": [
+            "Leather Seats",
+            "Carbon Fiber Trim",
+            "Navigation System",
+            "Backup Camera"
+          ],
+          "insurance": true,
+          "serviceHistory": "Full service history available",
+          "seller": {
+            "name": "Rajiv Motors",
+            "location": "Mumbai, Maharashtra",
+            "email": "info@rajivmotors.com"
+          },
+          "image": "https://source.unsplash.com/featured/?car/?ferrari/?orientation=squarish",
+          "description": "The Ferrari F8 Tributo is a mid-engine sports car that combines breathtaking performance with iconic design, delivering an unparalleled driving experience."
+        }
+      ]
+    },
+    {
+      "id": "740a",
+      "name": "satyapalsinh",
+      "email": "satyapalsinh@gmail.com",
+      "password": "xyz@1234"
+    },
+    {
+      "id": "0677",
+      "name": "Yashvi Gandhi",
+      "email": "yashvi@gmail.com",
+      "password": "yashvi@123"
+    },
+    {
+      "id": "19",
+      "name": "Vishal Gohil",
+      "email": "vishal@gmail.com",
+      "password": "vishal@123"
+    },
+    {
+      "id": "20",
+      "name": "Jinkal Puchhadiya",
+      "email": "jinkal@gmail.com",
+      "password": "jinkal@123"
+    },
+    {
+      "id": "21",
+      "name": "satyapal",
+      "email": "satyapal@gmail.com",
+      "password": "satyapal@123"
+    },
+    {
+      "id": "22",
+      "name": "yash",
+      "email": "yash@gmail.com",
+      "password": "yash@123"
+    }
+  ],
+  "cars": [
+    {
+      "id": "1",
+      "brand": "Ferrari",
+      "model": "F8 Tributo",
+      "year": 2022,
+      "price": 300000,
+      "kilometers": "40,000",
+      "mileage": "10,000 km",
+      "cartype": "Sports Car",
+      "fuelType": "Gasoline",
+      "numberOfOwners": 1,
+      "defects": "Minor scratches on the rear bumper",
+      "condition": "Excellent",
+      "engine": "3.9L V8",
+      "transmission": "7-Speed Dual-Clutch Automatic",
+      "features": [
+        "Leather Seats",
+        "Carbon Fiber Trim",
+        "Navigation System",
+        "Backup Camera"
+      ],
+      "insurance": true,
+      "serviceHistory": "Full service history available",
+      "seller": {
+        "name": "Rajiv Motors",
+        "location": "Mumbai, Maharashtra",
+        "email": "mailto:info@rajivmotors.com"
+      },
+      "image": "https://source.unsplash.com/featured/?car/?ferrari/?orientation=squarish",
+      "description": "The Ferrari F8 Tributo is a mid-engine sports car that combines breathtaking performance with iconic design, delivering an unparalleled driving experience."
+    },
+    {
+      "id": "2",
+      "brand": "Lamborghini",
+      "model": "Aventador SVJ",
+      "year": 2023,
+      "price": 400000,
+      "kilometers": "40,000",
+      "mileage": "5,000 km",
+      "cartype": "Supercar",
+      "fuelType": "Gasoline",
+      "numberOfOwners": 2,
+      "defects": "None",
+      "condition": "Like New",
+      "engine": "6.5L V12",
+      "transmission": "7-Speed ISR Automatic",
+      "features": [
+        "Alcantara Interior",
+        "Carbon Ceramic Brakes",
+        "Apple CarPlay",
+        "Front Lift System"
+      ],
+      "insurance": true,
+      "serviceHistory": "Regularly serviced",
+      "seller": {
+        "name": "Kumar Motors",
+        "location": "New Delhi, Delhi",
+        "email": "mailto:sales@kumarmotors.in"
+      },
+      "image": "https://source.unsplash.com/featured/?car/?lamborghini/?orientation=squarish",
+      "description": "The Lamborghini Aventador SVJ is a masterpiece of engineering and design, featuring a powerful V12 engine and cutting-edge aerodynamics for unmatched performance on the road and track."
+    },
+    {
+      "id": "3",
+      "brand": "Bugatti",
+      "model": "Chiron",
+      "year": 2022,
+      "price": 500000,
+      "kilometers": "40,000",
+      "mileage": "2,000 km",
+      "cartype": "Hypercar",
+      "fuelType": "Gasoline",
+      "numberOfOwners": 1,
+      "defects": "None",
+      "condition": "Excellent",
+      "engine": "8.0L Quad-Turbo W16",
+      "transmission": "7-Speed Dual-Clutch Automatic",
+      "features": [
+        "Diamond Cut Alloy Wheels",
+        "Carbon Fiber Body",
+        "360-degree Camera",
+        "Advanced Driver Assistance System"
+      ],
+      "insurance": true,
+      "serviceHistory": "Dealer maintained",
+      "seller": {
+        "name": "Singh Auto Emporium",
+        "location": "Mumbai, Maharashtra",
+        "email": "mailto:singhautoemporium@gmail.com"
+      },
+      "image": "https://source.unsplash.com/featured/?car/?bugatti/?orientation=squarish",
+      "description": "The Bugatti Chiron is the ultimate hypercar, combining breathtaking speed, unrivaled luxury, and exquisite craftsmanship to create a driving experience like no other."
+    },
+    {
+      "id": "4",
+      "brand": "McLaren",
+      "model": "720S",
+      "year": 2023,
+      "price": 350000,
+      "kilometers": "40,000",
+      "mileage": "8,000 km",
+      "cartype": "Supercar",
+      "fuelType": "Gasoline",
+      "numberOfOwners": 1,
+      "defects": "None",
+      "condition": "Excellent",
+      "engine": "4.0L Twin-Turbo V8",
+      "transmission": "7-Speed SSG Automatic",
+      "features": [
+        "Carbon Fiber Monocage",
+        "Active Aerodynamics",
+        "Infotainment System with Apple CarPlay",
+        "Front and Rear Parking Sensors"
+      ],
+      "insurance": true,
+      "serviceHistory": "Serviced at authorized McLaren dealership",
+      "seller": {
+        "name": "Patel Motors",
+        "location": "Ahmedabad, Gujarat",
+        "email": "mailto:patelmotors@yahoo.com"
+      },
+      "image": "https://source.unsplash.com/featured/?car/?mclaren/?orientation=squarish",
+      "description": "The McLaren 720S is a supercar that pushes the boundaries of performance and technology, delivering blistering acceleration and razor-sharp handling."
+    },
+    {
+      "id": "5",
+      "brand": "Rolls-Royce",
+      "model": "Phantom",
+      "year": 2022,
+      "price": 450000,
+      "kilometers": "40,000",
+      "mileage": "15,000 km",
+      "cartype": "Luxury Sedan",
+      "fuelType": "Gasoline",
+      "numberOfOwners": 1,
+      "defects": "None",
+      "condition": "Excellent",
+      "engine": "6.75L Twin-Turbo V12",
+      "transmission": "8-Speed Automatic",
+      "features": [
+        "Handcrafted Leather Interior",
+        "Starlight Headliner",
+        "Rear Entertainment System",
+        "Adaptive Cruise Control"
+      ],
+      "insurance": true,
+      "serviceHistory": "Dealer serviced",
+      "seller": {
+        "name": "Sharma Luxury Cars",
+        "location": "Bangalore, Karnataka",
+        "email": "mailto:sharmaluxurycars@gmail.com"
+      },
+      "image": "https://source.unsplash.com/featured/?car/?rolls-royce/?orientation=squarish",
+      "description": "The Rolls-Royce Phantom is the pinnacle of luxury, combining exquisite craftsmanship, state-of-the-art technology, and unparalleled comfort to create the ultimate chauffeur-driven experience."
+    },
+    {
+      "id": "6",
+      "brand": "Aston Martin",
+      "model": "DBS Superleggera",
+      "year": 2023,
+      "price": 350000,
+      "kilometers": "40,000",
+      "mileage": "6,000 km",
+      "cartype": "Grand Tourer",
+      "fuelType": "Gasoline",
+      "numberOfOwners": 1,
+      "defects": "None",
+      "condition": "Like New",
+      "engine": "5.2L Twin-Turbo V12",
+      "transmission": "8-Speed Automatic",
+      "features": [
+        "Alcantara Interior",
+        "Bang & Olufsen Sound System",
+        "Adaptive Suspension",
+        "Lane Departure Warning"
+      ],
+      "insurance": true,
+      "serviceHistory": "Serviced at authorized Aston Martin dealership",
+      "seller": {
+        "name": "Gupta Motors",
+        "location": "Chennai, Tamil Nadu",
+        "email": "mailto:guptamotors@gmail.com"
+      },
+      "image": "https://source.unsplash.com/featured/?car/?aston-martin/?orientation=squarish",
+      "description": "The Aston Martin DBS Superleggera is a grand tourer that exudes elegance and performance, with a powerful V12 engine and striking design that turn heads wherever it goes."
+    },
+    {
+      "id": "7",
+      "brand": "Bentley",
+      "model": "Mulsanne",
+      "year": 2022,
+      "price": 400000,
+      "kilometers": "40,000",
+      "mileage": "12,000 km",
+      "cartype": "Luxury Sedan",
+      "fuelType": "Gasoline",
+      "numberOfOwners": 2,
+      "defects": "None",
+      "condition": "Excellent",
+      "engine": "6.75L Twin-Turbo V8",
+      "transmission": "8-Speed Automatic",
+      "features": [
+        "Premium Leather Seats",
+        "Wood Veneer Interior Trim",
+        "Panoramic Sunroof",
+        "Adaptive Cruise Control"
+      ],
+      "insurance": true,
+      "serviceHistory": "Dealer maintained",
+      "seller": {
+        "name": "Khan Auto Group",
+        "location": "Hyderabad, Telangana",
+        "email": "mailto:khanautogroup@hotmail.com"
+      },
+      "image": "https://source.unsplash.com/featured/?car/?bentley/?orientation=squarish",
+      "description": "The Bentley Mulsanne is the epitome of luxury and refinement, offering unparalleled comfort, craftsmanship, and exclusivity for discerning drivers."
+    },
+    {
+      "id": "8",
+      "brand": "Lexus",
+      "model": "LC 500",
+      "year": 2023,
+      "price": 200000,
+      "kilometers": "40,000",
+      "mileage": "7,500 km",
+      "cartype": "Luxury Sports Coupe",
+      "fuelType": "Gasoline",
+      "numberOfOwners": 1,
+      "defects": "Minor scratches on the front bumper",
+      "condition": "Excellent",
+      "engine": "5.0L V8",
+      "transmission": "10-Speed Automatic",
+      "features": [
+        "Mark Levinson Surround Sound System",
+        "Heated and Ventilated Seats",
+        "Adaptive Variable Suspension",
+        "Blind Spot Monitor"
+      ],
+      "insurance": true,
+      "serviceHistory": "Dealer serviced",
+      "seller": {
+        "name": "Malhotra Motors",
+        "location": "Pune, Maharashtra",
+        "email": "mailto:malhotramotors@gmail.com"
+      },
+      "image": "https://source.unsplash.com/featured/?car/?lexus/?orientation=squarish",
+      "description": "The Lexus LC 500 is a luxury sports coupe that combines stunning design with exhilarating performance, delivering a thrilling driving experience on every journey."
+    },
+    {
+      "id": "9",
+      "brand": "Maserati",
+      "model": "GranTurismo",
+      "year": 2022,
+      "price": 250000,
+      "kilometers": "40,000",
+      "mileage": "9,000 km",
+      "cartype": "Grand Tourer",
+      "fuelType": "Gasoline",
+      "numberOfOwners": 1,
+      "defects": "None",
+      "condition": "Excellent",
+      "engine": "4.7L V8",
+      "transmission": "6-Speed Automatic",
+      "features": [
+        "Poltrona Frau Leather Seats",
+        "Wood Trim Interior",
+        "Bose Surround Sound System",
+        "Dual-Zone Climate Control"
+      ],
+      "insurance": true,
+      "serviceHistory": "Serviced at authorized Maserati dealership",
+      "seller": {
+        "name": "Verma Luxury Cars",
+        "location": "Kolkata, West Bengal",
+        "email": "mailto:vermaluxurycars@gmail.com"
+      },
+      "image": "https://source.unsplash.com/featured/?car/?maserati/?orientation=squarish",
+      "description": "The Maserati GranTurismo is a grand tourer that embodies Italian style and performance, with a powerful V8 engine and elegant design that captivates the senses."
+    },
+    {
+      "id": "10",
+      "brand": "Porsche",
+      "model": "911 Turbo S",
+      "year": 2023,
+      "price": 300000,
+      "kilometers": "40,000",
+      "mileage": "6,500 km",
+      "cartype": "Sports Car",
+      "fuelType": "Gasoline",
+      "numberOfOwners": 1,
+      "defects": "None",
+      "condition": "Excellent",
+      "engine": "3.8L Twin-Turbo Flat-6",
+      "transmission": "8-Speed PDK Automatic",
+      "features": [
+        "Porsche Communication Management System",
+        "Sport Chrono Package",
+        "Sport Exhaust System",
+        "Porsche Active Suspension Management"
+      ],
+      "insurance": true,
+      "serviceHistory": "Dealer serviced",
+      "seller": {
+        "name": "Singh Performance Cars",
+        "location": "Chandigarh, Punjab",
+        "email": "mailto:singhperformancecars@gmail.com"
+      },
+      "image": "https://source.unsplash.com/featured/?car/?porsche/?orientation=squarish",
+      "description": "The Porsche 911 Turbo S is an iconic sports car that offers blistering performance, precise handling, and timeless design, setting the standard for performance and luxury."
+    },
+    {
+      "id": "11",
+      "brand": "Audi",
+      "model": "R8",
+      "year": 2022,
+      "price": 280000,
+      "kilometers": "40,000",
+      "mileage": "11,000 km",
+      "cartype": "Supercar",
+      "fuelType": "Gasoline",
+      "numberOfOwners": 1,
+      "defects": "None",
+      "condition": "Excellent",
+      "engine": "5.2L V10",
+      "transmission": "7-Speed S Tronic Automatic",
+      "features": [
+        "Virtual Cockpit",
+        "Bang & Olufsen Sound System",
+        "Audi Drive Select",
+        "LED Headlights"
+      ],
+      "insurance": true,
+      "serviceHistory": "Dealer maintained",
+      "seller": {
+        "name": "Gandhi Auto World",
+        "location": "Jaipur, Rajasthan",
+        "email": "mailto:gandhiautoworld@gmail.com"
+      },
+      "image": "https://source.unsplash.com/featured/?car/?audi/?orientation=squarish",
+      "description": "The Audi R8 is a high-performance supercar that combines exhilarating performance with everyday usability, making it the perfect choice for enthusiasts who demand the best of both worlds."
+    },
+    {
+      "id": "12",
+      "brand": "BMW",
+      "model": "M8 Competition",
+      "year": 2023,
+      "price": 320000,
+      "kilometers": "40,000",
+      "mileage": "8,500 km",
+      "cartype": "Luxury Coupe",
+      "fuelType": "Gasoline",
+      "numberOfOwners": 1,
+      "defects": "Minor paint chip on the hood",
+      "condition": "Excellent",
+      "engine": "4.4L Twin-Turbo V8",
+      "transmission": "8-Speed Automatic",
+      "features": [
+        "M Sport Exhaust System",
+        "Harman Kardon Surround Sound System",
+        "Head-Up Display",
+        "Gesture Control"
+      ],
+      "insurance": true,
+      "serviceHistory": "Regularly serviced at authorized BMW dealership",
+      "seller": {
+        "name": "Kaur Motors",
+        "location": "Amritsar, Punjab",
+        "email": "mailto:kaurmotors@gmail.com"
+      },
+      "image": "https://source.unsplash.com/featured/?car/?bmw/?orientation=squarish",
+      "description": "The BMW M8 Competition is a high-performance luxury coupe that offers breathtaking acceleration, precise handling, and luxurious comfort, setting new standards in the world of grand touring."
+    },
+    {
+      "id": "13",
+      "brand": "Jaguar",
+      "model": "F-Type",
+      "year": 2022,
+      "price": 240000,
+      "kilometers": "40,000",
+      "mileage": "12,500 km",
+      "cartype": "Sports Car",
+      "fuelType": "Gasoline",
+      "numberOfOwners": 2,
+      "defects": "Minor scratches on the door panels",
+      "condition": "Good",
+      "engine": "5.0L Supercharged V8",
+      "transmission": "8-Speed QuickShift Automatic",
+      "features": [
+        "Panoramic Glass Roof",
+        "Meridian Surround Sound System",
+        "Dynamic Stability Control",
+        "Active Sports Exhaust"
+      ],
+      "insurance": true,
+      "serviceHistory": "Dealer maintained",
+      "seller": {
+        "name": "Chopra Motors",
+        "location": "Lucknow, Uttar Pradesh",
+        "email": "mailto:chopramotors@gmail.com"
+      },
+      "image": "https://source.unsplash.com/featured/?car/?jaguar/?orientation=squarish",
+      "description": "The Jaguar F-Type is a luxury sports car that combines stunning design with exhilarating performance, delivering a thrilling driving experience that ignites the senses."
+    },
+    {
+      "id": "14",
+      "brand": "Lotus",
+      "model": "Evija",
+      "year": 2023,
+      "price": 500000,
+      "kilometers": "40,000",
+      "mileage": "500 km",
+      "cartype": "Hypercar",
+      "fuelType": "Electric",
+      "numberOfOwners": 1,
+      "defects": "None",
+      "condition": "Like New",
+      "engine": "Electric Motor",
+      "transmission": "Direct Drive",
+      "features": [
+        "Carbon Fiber Monocoque",
+        "Active Suspension",
+        "Regenerative Braking",
+        "Touchscreen Infotainment System"
+      ],
+      "insurance": true,
+      "serviceHistory": "N/A",
+      "seller": {
+        "name": "Patel Performance Cars",
+        "location": "Surat, Gujarat",
+        "email": "mailto:patelperformancecars@gmail.com"
+      },
+      "image": "https://source.unsplash.com/featured/?car/?lotus/?orientation=squarish",
+      "description": "The Lotus Evija is an all-electric hypercar that combines cutting-edge technology with unparalleled performance, delivering an electrifying driving experience that pushes the boundaries of what's possible."
+    },
+    {
+      "id": "15",
+      "brand": "Mercedes-Benz",
+      "model": "AMG GT",
+      "year": 2022,
+      "price": 300000,
+      "kilometers": "40,000",
+      "mileage": "9,000 km",
+      "cartype": "Sports Car",
+      "fuelType": "Gasoline",
+      "numberOfOwners": 1,
+      "defects": "None",
+      "condition": "Excellent",
+      "engine": "4.0L Twin-Turbo V8",
+      "transmission": "7-Speed AMG SPEEDSHIFT DCT",
+      "features": [
+        "AMG Performance Exhaust System",
+        "Burmester High-End Surround Sound System",
+        "AMG Ride Control Sport Suspension",
+        "Adaptive LED Headlights"
+      ],
+      "insurance": true,
+      "serviceHistory": "Dealer maintained",
+      "seller": {
+        "name": "Malik Luxury Cars",
+        "location": "Bhopal, Madhya Pradesh",
+        "email": "mailto:malikluxurycars@gmail.com"
+      },
+      "image": "https://source.unsplash.com/featured/?car/?mercedes-benz/?orientation=squarish",
+      "description": "The Mercedes-Benz AMG GT is a high-performance sports car that offers breathtaking performance, luxurious comfort, and iconic design, making it a true masterpiece of engineering."
+    },
+    {
+      "id": "16",
+      "brand": "Ferrari",
+      "model": "812 Superfast",
+      "year": 2023,
+      "price": 400000,
+      "kilometers": "40,000",
+      "mileage": "7,000 km",
+      "cartype": "Grand Tourer",
+      "fuelType": "Gasoline",
+      "numberOfOwners": 1,
+      "defects": "None",
+      "condition": "Excellent",
+      "engine": "6.5L V12",
+      "transmission": "7-Speed Dual-Clutch Automatic",
+      "features": [
+        "Full Leather Interior",
+        "Carbon Fiber",
+        "Monocoque",
+        "Virtual Cockpit",
+        "Brembo Carbon Ceramic Brakes",
+        "Adaptive Suspension"
+      ],
+      "insurance": true,
+      "serviceHistory": "Regularly serviced at authorized Ferrari dealership",
+      "seller": {
+        "name": "Khan Motors",
+        "location": "Mumbai, Maharashtra",
+        "email": "mailto:khanmotors@gmail.com"
+      },
+      "image": "https://source.unsplash.com/featured/?car/?ferrari/?orientation=squarish",
+      "description": "The Ferrari 812 Superfast is a front-engine V12 grand tourer that combines breathtaking performance with luxurious comfort, delivering an exhilarating driving experience on every journey."
+    },
+    {
+      "id": "17",
+      "brand": "Lamborghini",
+      "model": "Huracan EVO",
+      "year": 2022,
+      "price": 350000,
+      "kilometers": "40,000",
+      "mileage": "6,500 km",
+      "cartype": "Supercar",
+      "fuelType": "Gasoline",
+      "numberOfOwners": 1,
+      "defects": "None",
+      "condition": "Excellent",
+      "engine": "5.2L V10",
+      "transmission": "7-Speed Dual-Clutch Automatic",
+      "features": [
+        "Alcantara Interior",
+        "Carbon Fiber Exterior Trim",
+        "Lamborghini Infotainment System",
+        "Dynamic Steering"
+      ],
+      "insurance": true,
+      "serviceHistory": "Dealer serviced",
+      "seller": {
+        "name": "Sharma Motors",
+        "location": "Jaipur, Rajasthan",
+        "email": "mailto:sharmamotors@gmail.com"
+      },
+      "image": "https://source.unsplash.com/featured/?car/?lamborghini/?orientation=squarish",
+      "description": "The Lamborghini Huracan EVO is a mid-engine supercar that offers razor-sharp handling, blistering acceleration, and striking design, delivering an unparalleled driving experience."
+    },
+    {
+      "id": "18",
+      "brand": "Bugatti",
+      "model": "Divo",
+      "year": 2023,
+      "price": 500000,
+      "kilometers": "40,000",
+      "mileage": "2,000 km",
+      "cartype": "Hypercar",
+      "fuelType": "Gasoline",
+      "numberOfOwners": 1,
+      "defects": "None",
+      "condition": "Excellent",
+      "engine": "8.0L Quad-Turbo W16",
+      "transmission": "7-Speed Dual-Clutch Automatic",
+      "features": [
+        "Carbon Fiber Body",
+        "Titanium Exhaust System",
+        "Advanced Aerodynamics Package",
+        "Diamond Cut Alloy Wheels"
+      ],
+      "insurance": true,
+      "serviceHistory": "Dealer maintained",
+      "seller": {
+        "name": "Singh Motors",
+        "location": "Delhi, Delhi",
+        "email": "mailto:singhmotors@gmail.com"
+      },
+      "image": "https://source.unsplash.com/featured/?car/?bugatti/?orientation=squarish",
+      "description": "The Bugatti Divo is a limited-production hypercar that pushes the boundaries of performance and design, delivering an unforgettable driving experience for the lucky few who can own one."
+    },
+    {
+      "id": "19",
+      "brand": "McLaren",
+      "model": "Speedtail",
+      "year": 2022,
+      "price": 450000,
+      "kilometers": "40,000",
+      "mileage": "3,000 km",
+      "cartype": "Hyper-GT",
+      "fuelType": "Gasoline",
+      "numberOfOwners": 1,
+      "defects": "None",
+      "condition": "Excellent",
+      "engine": "4.0L Twin-Turbo V8 Hybrid",
+      "transmission": "7-Speed Automatic",
+      "features": [
+        "Central Driving Position",
+        "Active Rear Wing",
+        "Carbon Fiber Monocage",
+        "Electrochromic Roof"
+      ],
+      "insurance": true,
+      "serviceHistory": "Dealer serviced",
+      "seller": {
+        "name": "Verma Motors",
+        "location": "Lucknow, Uttar Pradesh",
+        "email": "mailto:vermamotors@gmail.com"
+      },
+      "image": "https://source.unsplash.com/featured/?car/?mclaren/?orientation=squarish",
+      "description": "The McLaren Speedtail is a hyper-GT that offers unmatched speed, luxury, and innovation, with a central driving position and breathtaking design that redefine what's possible in a hypercar."
+    },
+    {
+      "id": "20",
+      "brand": "Rolls-Royce",
+      "model": "Cullinan",
+      "year": 2023,
+      "price": 600000,
+      "kilometers": "40,000",
+      "mileage": "4,500 km",
+      "cartype": "Luxury SUV",
+      "fuelType": "Gasoline",
+      "numberOfOwners": 1,
+      "defects": "None",
+      "condition": "Excellent",
+      "engine": "6.75L Twin-Turbo V12",
+      "transmission": "8-Speed Automatic",
+      "features": [
+        "Panoramic Sunroof",
+        "Individual Rear Seating Configuration",
+        "Rear Theater Entertainment System",
+        "Night Vision with Pedestrian Recognition"
+      ],
+      "insurance": true,
+      "serviceHistory": "Dealer serviced",
+      "seller": {
+        "name": "Choudhary Luxury Cars",
+        "location": "Gurgaon, Haryana",
+        "email": "mailto:choudharyluxurycars@gmail.com"
+      },
+      "image": "https://source.unsplash.com/featured/?car/?rolls-royce/?orientation=squarish",
+      "description": "The Rolls-Royce Cullinan is the ultimate luxury SUV, combining unparalleled comfort, refinement, and off-road capability to create a truly sublime driving experience."
+    },
+    {
+      "id": "d251",
+      "brand": "Buggati",
+      "model": "600v14p",
+      "year": "2024",
+      "price": "50,00,000",
+      "kilometers": "10,000 km",
+      "mileage": "40 km",
+      "cartype": "Sedan",
+      "fuelType": "Diesel",
+      "numberOfOwners": "2",
+      "defects": "No defects",
+      "condition": "First class",
+      "engine": "Buggati b16p100",
+      "transmission": "Manual",
+      "features": [
+        "Alcantara Interior",
+        "Navigation System",
+        "Leather Seats",
+        "Backup Camera"
+      ],
+      "insurance": false,
+      "serviceHistory": "Not serviced",
+      "description": "The heart and soul of the Veyron is the 8.0-liter W16 engine with four turbochargers, which initially generated 1,001 PS, and an incredible 1,200 PS in later models. The 16-cylinder mid-engine is 710 mm in length, no longer than a conventional V12 engine, and weighs just 490 kg due to its lightweight construction.",
+      "seller": {
+        "name": "Dev Mankad",
+        "email": "dev@gmail.com"
+      }
+    },
+    {
+      "id": "7dc7",
+      "brand": "Swift",
+      "model": "ZXI",
+      "year": "2022",
+      "price": "8,50,000",
+      "kilometers": "15,000 km",
+      "mileage": "20 km/l",
+      "cartype": "Hatchback",
+      "fuelType": "Petrol",
+      "numberOfOwners": "1",
+      "defects": "Minor scratches",
+      "condition": "Good",
+      "engine": "1.2L K-Series",
+      "transmission": "Automatic",
+      "features": [
+        "Backup Camera",
+        "Navigation System",
+        "Sport Exhaust System",
+        "Panoramic Sunroof"
+      ],
+      "insurance": false,
+      "serviceHistory": "Regularly serviced at authorized service center.",
+      "description": "This Swift ZXI is a stylish and reliable hatchback. It has been driven 15,000 kilometers and is equipped with a 1.2L K-Series petrol engine paired with automatic transmission. The car has had one owner and is in good condition, with only minor scratches. Features include a touchscreen infotainment system, keyless entry, push button start, automatic climate control, and reverse parking sensors. The car is insured and has a regular service history at authorized service centers.",
+      "seller": {
+        "name": "Jinkal Puchhadiya",
+        "email": "jinkal@gmail.com"
+      }
+    },
+    {
+      "id": "126c",
+      "brand": "BMW",
+      "model": "MV40i",
+      "year": "1999",
+      "price": "4,000,000,00",
+      "kilometers": "10000km",
+      "mileage": "50 km",
+      "cartype": "Sports car",
+      "fuelType": "petrol",
+      "numberOfOwners": "3",
+      "defects": "Handle is defected",
+      "condition": "good to use",
+      "engine": "440 cc",
+      "transmission": "Manual",
+      "features": [
+        "Apple CarPlay"
+      ],
+      "insurance": false,
+      "serviceHistory": "Per month",
+      "description": "The BMW MV40i SVJ is a masterpiece of engineering and design, featuring a powerful V12 engine and cutting-edge aerodynamics for unmatched performance on the road and track.",
+      "seller": {
+        "name": "yash",
+        "email": "yash@gmail.com"
+      }
+    }
+  ]
+}
