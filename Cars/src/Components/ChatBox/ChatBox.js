@@ -11,7 +11,7 @@ const ChatBox = ({ open, onClose, name }) => {
   const [profileImage, setProfileImage] = useState('');
   const {isDarkMode, toggleDarkMode} = React.useContext(DarkModeContext)
 
-
+  
   useEffect(() => {
     // Fetch profile image from Unsplash API
     fetch('https://source.unsplash.com/random/200x200/?profile')
